@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    width: 80%;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    width: 80%;
+    margin-top: 5rem;
+}
+
+.listaEjercicio {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.listaEjercicio ul {
+    list-style: none;
+}
+
+.listaEjercicio li {
+    margin-bottom: 1rem;
+}
+
+.listaEjercicio a {
+    display: block;
+    text-decoration: none;
+    color: #4a6cf7;
+
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+
+    transition: 0.3s;
+}
+
+.listaEjercicio a:hover {
+    background-color: #eef2ff;
+    color: #1d3fd1;
+}
+
+footer {
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    margin-top: 5rem;
+    padding:2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);;
+}
+
+html, body {
+    overflow-x: hidden;
+}
